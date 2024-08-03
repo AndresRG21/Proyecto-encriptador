@@ -11,15 +11,16 @@
         <section class="presentacion_contenido">
             <h1 class="presentacion_contenido_titulo">ENCRIPTADOR DE TEXTO</h1>
             <p class="parrafo1_presentacion">Esta pagina te ayudara a encriptar el texto que desees y a traerlo de vuelta </p>
-            <input class="input1_presentacion" type="Introduce el texto aqui">
-            <div class="texto_resultado">
-                <textarea name="texto_resultado_area" id=""></textarea>
-                <button class="copiar_boton">Copiar texto</button>
-            </div>
+            
+            <aside class="cajasDeTexto">
+                <input class="input1_presentacion" type="string" id="textoUsuario" placeholder="Ingresa el texto aqui"></input>
+                <textarea name="texto_resultado_area" id="textoResultado" placeholder="Aun no hay algo que encriptar" readonly></textarea>
+                <button class="copiar_boton" onclick="accionCopiar()">Copiar texto</button>
+            </aside>
             <div class="botones">
                 <p class="texto_advertencia">Advertencia: No se pueden usar mayusculas ni caracteres especiales</p>
-                <button class="boton1">Encriptar</button>
-                <button class="boton2">Desencriptar</button>
+                <button class="boton1" onclick="accionEncriptar()">Encriptar</button>
+                <button class="boton2" onclick="accionDesencriptar()">Desencriptar</button>
             </div>
             
         </section>
