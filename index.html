@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ENCRIPTADOR</title>
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-    <header></header>
+    <header class="presentacionSuperior">
+        <img class="logoAlura" src="images/alura logo.png" alt="Alura_Latam">
+    </header>
     <main class="presentacion">
         <section class="presentacion_contenido">
             <h1 class="presentacion_contenido_titulo">ENCRIPTADOR DE TEXTO</h1>
             <p class="parrafo1_presentacion">Esta pagina te ayudara a encriptar el texto que desees y a traerlo de vuelta </p>
             
             <aside class="cajasDeTexto">
-                <input class="input1_presentacion" type="string" id="textoUsuario" placeholder="Ingresa el texto aqui"></input>
-                <textarea name="texto_resultado_area" id="textoResultado" placeholder="Aun no hay algo que encriptar" readonly></textarea>
+                <textarea class="input1_presentacion" rows="10" cols="30" type="string" id="textoUsuario" placeholder="Ingresa el texto aqui"></textarea>
+                <textarea class="textoResultado" rows="10" cols="20" name="texto_resultado_area" id="textoResultado" placeholder="Aun no hay algo que encriptar" readonly></textarea>
                 <button class="copiar_boton" onclick="accionCopiar()">Copiar texto</button>
             </aside>
             <div class="botones">

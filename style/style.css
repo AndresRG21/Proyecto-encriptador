@@ -1,22 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --color-primario: #D6EFD8 ;
+    --color-secundario: #1A5319;
+    --fuente-krona: "Krona one", sans-serif;
+    --fuente-montserrat: "Montserrat", sans-serif;
+}
+
+.logoAlura{
+    display: flex;
+    grid-template-columns:repeat(3, 1fr) ;
+    max-width: 50rem;
+    height: 50px;
+    padding: 0% 1% 3% 1%;
+
+}
+
+
+
+.presentacionSuperior{
+    padding: 2% 0% 0% 5%;
+    background-color: #1A5319;
+
+}
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+body{
+    background-color: var(--color-primario);
+    box-sizing: border-box;
+
+}
+
 .presentacion{
     display: flex;
     align-items: center;
-    padding: 5% 15%;
-    justify-content: space-between;
-    gap: 50px;
+    justify-content:space-between;
+    gap: 1px;
 }
 
-.presentacionContenido{
+.presentacion_contenido{
 
     display: flex;
-    flex-direction: row;
-    gap: 50px;  
+    flex-direction: column;
+    gap: 5px;  
+    width: 100%;
 
+
+}
+
+.presentacion_contenido_titulo{
+
+    padding: 0% 1% 1% 0%;
+    font-size: 3rem;
+    font-family: var(--fuente-montserrat);
+    color: var(--color-secundario);
+    
+}
+
+.parrafo1_presentacion{
+    padding: 1% 1% 1% 0%;
+    font-size: 2rem;
+    font-family: var(--fuente-montserrat);
 
 }
 
 .cajasDeTexto{
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: row;
     gap: 20px;
+}
+
+.input1_presentacion{
+
+    position: relative;
+    border-radius: 10px;
+    border: 2px solid#21a043;
+    width: 500px;
+    height: 150px;
+    text-align: start;
+    font-family: var(--fuente-montserrat);
+    font-size: 1.25rem;
+}
+    ::placeholder{color: #1b8419;
+        font-family: var(--fuente-montserrat);
+        font-size: 1.25rem
+    }
+
+        .input1_presentacion :focus {
+        outline: none;
+    }
+
+
+
+.textoResultado{
+    width: 500px;
+    height: 150px;
+    border-radius: 10px;
+    border: 2px solid#21a043;
+    font-family: var(--fuente-montserrat);
+    font-size: 1.25rem;
+}
+
+.copiar_boton{
+    width: 175px;
+    height: 70px;
+    font-family: var(--fuente-montserrat);
+    font-size: 1.25rem;
+    background-color:var(--color-primario);
+    border-radius: 20px;
+    border-style:double;
+    color: #1A5319;
+}
+
+.copiar_boton:hover{
+    background-color: #21a043;
+    color: #D6EFD8;
 }
