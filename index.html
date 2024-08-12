@@ -7,31 +7,42 @@
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-    <header class="presentacionSuperior">
+    <header>
         <img class="logoAlura" src="images/alura logo.png" alt="Alura_Latam">
     </header>
     <main class="presentacion">
         <section class="presentacion_contenido">
             <h1 class="presentacion_contenido_titulo">ENCRIPTADOR DE TEXTO</h1>
-            <p class="parrafo1_presentacion">Esta pagina te ayudara a encriptar el texto que desees y a traerlo de vuelta </p>
+            <p class="parrafo1_presentacion">Encripta y desencripta cualquier texto con nuestra herramienta <strong>fácil de usar.</strong> </p>
             
             <aside class="cajasDeTexto">
                 <textarea class="input1_presentacion" rows="10" cols="30" type="string" id="textoUsuario" placeholder="Ingresa el texto aqui"></textarea>
                 <textarea class="textoResultado" rows="10" cols="20" name="texto_resultado_area" id="textoResultado" placeholder="Aun no hay algo que encriptar" readonly></textarea>
-                <button class="copiar_boton" onclick="accionCopiar()">Copiar texto</button>
+                
             </aside>
             <div class="botones">
-                <p class="texto_advertencia">Advertencia: No se pueden usar mayusculas ni caracteres especiales</p>
+                <p class="texto_advertencia"><strong><img src="images/Group.png" alt="simbolo_exclamacion"> Advertencia: </strong>No se pueden usar <strong>mayusculas</strong> ni <strong>caracteres especiales.</strong></p>
                 <button class="boton1" onclick="accionEncriptar()">Encriptar</button>
-                <button class="boton2" onclick="accionDesencriptar()">Desencriptar</button>
+                <button class="boton1" onclick="accionDesencriptar()">Desencriptar</button>
+                <button class="boton1" onclick="accionCopiar()">Copiar texto</button>
             </div>
             
         </section>
     </main>
-    <footer>
-        <h2>Desarrollado por Andres Ramirez en el año 2024</h2>
-        <p class="subtitulo_redes">Accede a mis redes</p>
-        <a class="ancla_github" href="https://github.com/AndresRG21">github</a>
+    <footer class="footer">
+
+        <section class="contenidoFooter">
+            <h2 class="titulo_footer">Desarrollado por Andres Ramirez en el año 2024</h2>
+            <p class="subtitulo_redes">Accede a mis redes:</p>
+
+             <div class=" anclas"> 
+                <a class="ancla" href="https://github.com/AndresRG21"><img src="images/github.png" alt="github">github</a>
+                <a class="ancla" href="https://www.linkedin.com/in/andres-ramirezgdmi/"><img src="images/linkedin.png" alt="linkedin">linkedIn</a>
+            </div>
+
+        </section>
+           
+
     </footer>
    
     <script src="app.js"></script>

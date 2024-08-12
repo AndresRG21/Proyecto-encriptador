@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+*{
+    padding: 0;
+    margin: 0;
+}
+
 :root{
     --color-primario: #D6EFD8 ;
     --color-secundario: #1A5319;
@@ -18,8 +23,8 @@
 
 
 
-.presentacionSuperior{
-    padding: 2% 0% 0% 5%;
+.header{
+    padding: 2% 0% 0% 15%;
     background-color: #1A5319;
 
 }
@@ -39,14 +44,14 @@ body{
     display: flex;
     align-items: center;
     justify-content:space-between;
-    gap: 1px;
+    gap: 5%;
 }
 
 .presentacion_contenido{
 
     display: flex;
-    flex-direction: column;
-    gap: 5px;  
+    flex-direction: column; 
+    gap: 3%; 
     width: 100%;
 
 
@@ -54,12 +59,27 @@ body{
 
 .presentacion_contenido_titulo{
 
+    border: solid#519f50;
+    border-radius: 10px;
+    border-width: 15%;
+    width: 75%;
     padding: 0% 1% 1% 0%;
     font-size: 3rem;
     font-family: var(--fuente-montserrat);
     color: var(--color-secundario);
+    box-shadow: 
+         1 rem 1rem 0 -.25rem #ceeef8,
+         1rem 1rem 0 0 rgb(26, 74, 41);
+    transition: box-shadow;
     
 }
+.presentacion_contenido_titulo:hover{
+    box-shadow: 
+        0.5rem 0.5rem 0 -0.25rem #ceeef8,
+        0.5rem 0.5rem 0 0 rgb(28, 82, 29)
+    ;
+}
+
 
 .parrafo1_presentacion{
     padding: 1% 1% 1% 0%;
@@ -73,52 +93,338 @@ body{
     height: 100%;
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 1%;
 }
 
 .input1_presentacion{
 
     position: relative;
     border-radius: 10px;
-    border: 2px solid#21a043;
-    width: 500px;
-    height: 150px;
+    border: 2px var(--color-primario);
+    width: 40%;
+    height: 10%;
     text-align: start;
     font-family: var(--fuente-montserrat);
     font-size: 1.25rem;
 }
     ::placeholder{color: #1b8419;
         font-family: var(--fuente-montserrat);
-        font-size: 1.25rem
+        font-size: parent;
     }
 
         .input1_presentacion :focus {
         outline: none;
     }
 
-
-
-.textoResultado{
-    width: 500px;
-    height: 150px;
-    border-radius: 10px;
-    border: 2px solid#21a043;
-    font-family: var(--fuente-montserrat);
-    font-size: 1.25rem;
+.botones{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    height: 50%;
 }
 
-.copiar_boton{
-    width: 175px;
-    height: 70px;
+.boton1{
+    width: 20%;
+    height: 100%;
     font-family: var(--fuente-montserrat);
     font-size: 1.25rem;
     background-color:var(--color-primario);
     border-radius: 20px;
     border-style:double;
+    border-color: var(--color-secundario);
+    color: #1A5319;
+}
+
+.boton1:hover{
+    background-color: #21a043;
+    color: #D6EFD8;
+}
+
+.textoResultado{
+    width: 40%;
+    height: 10%;
+    border-radius: 10px;
+    border: 2px ;
+    font-family: var(--fuente-montserrat);
+    font-size: 1.25rem;
+}
+
+.copiar_boton{
+    width: 15%;
+    height: 100%;
+    font-family: var(--fuente-montserrat);
+    font-size: .75rem;
+    background-color:var(--color-primario);
+    border-radius: 20px;
+    border-style:double;
+    border-color: var(--color-secundario);
     color: #1A5319;
 }
 
 .copiar_boton:hover{
     background-color: #21a043;
     color: #D6EFD8;
+}
+
+.texto_advertencia{
+    font-family: var(--fuente-montserrat);
+    font-size: 1.25rem;
+    color: var(--color-secundario);
+}
+.imagen_exclamacion{
+    width: 10px;
+    height: 10px;
+}
+
+.footer{
+    background-color: var(--color-secundario);
+    color: var(--color-primario);
+    text-align: justify;
+    padding: 2% 2% 2% 2%;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: space-between;
+    gap: 0% 0%;
+
+}
+
+.contenidoFooter{
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20%;
+}
+
+.titulo_footer{
+    font-family: var(--fuente-montserrat);
+    font-size: 1rem;
+    color: var(--color-primario);
+    width: 30%;
+    flex-flow: row;
+}
+
+.subtitulo_redes{
+    font-family: var(--fuente-montserrat);
+    font-size: 1rem;
+    color: var(--color-primario);
+    width: 15%;
+}
+
+.anclas{
+    width: 15%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+    flex-flow: row;
+}
+
+.ancla{
+    width: 85%;
+    height: 100%;
+    background-color: var(--color-primario);
+    text-align: center;
+    padding: 5% 5% 5% 5%;
+    border-radius: 8px;
+    font-family: var(--fuente-montserrat);
+    font-size: 1rem;
+    color: var(--color-secundario);
+    border: 1px ;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 2%;
+}
+.ancla:hover{
+    background-color: #33984e;
+    color: #D6EFD8;
+}
+
+@media (max-width: 376px){
+
+    .presentacion_contenido_titulo{
+        
+        width: 80%;
+        font-size: 1.5rem;
+    }
+
+    .parrafo1_presentacion{
+        width: 70%;
+        padding: auto;
+        font-size: 1rem;
+    }
+    .cajasDeTexto{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .input1_presentacion{
+        width: 80%;
+        height: 40%;
+    }
+    .textoResultado{
+        width: 80%;
+        height: 40%;
+    }
+    .copiar_boton{
+        font-size: .75rem;
+    }
+
+    .boton1{
+        font-size: .75rem;
+        width: 50%;
+        height: 30%;
+    }
+
+    .texto_advertencia{
+        font-size: 1rem;
+        width: 70%;
+    }
+
+    .titulo_footer{
+        font-size: .75rem;
+        width: 30%;
+    }
+    .subtitulo_redes{
+        width: 20%;
+        font-size: .75rem;
+    }
+    .anclas{
+        width: 40%;
+        height: .5%;
+        justify-content: right;
+        flex-direction: column;
+    }
+    .ancla{
+        font-size: .75rem;
+        width: 90%;
+        height: 1%;
+        gap: 1%;
+        
+    }
+    .contenidoFooter{
+        display: flex;
+        width: 80%;
+        flex-direction: row;
+        justify-content:space-between;
+        gap: 10%;
+    }
+    
+}
+   
+
+@media (max-width: 768px) and (min-width:376px){
+    .presentacion_contenido_titulo{
+        
+        width: 65%;
+        font-size: 1.5rem;
+    }
+
+    .parrafo1_presentacion{
+        padding: auto;
+        font-size: 1rem;
+        width: 60%;
+    }
+    .cajasDeTexto{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .input1_presentacion{
+        width: 80%;
+        height: 40%;
+    }
+    .textoResultado{
+        width: 80%;
+        height: 40%;
+    }
+    .copiar_boton{
+        font-size: .75rem;
+    }
+
+    .boton1{
+        font-size: .75rem;
+        width: 30%;
+        height: 30%;
+    }
+
+    .texto_advertencia{
+        font-size: 1rem;
+        width: 70%;
+    }
+
+    .titulo_footer{
+        font-size: .75rem;
+        width: 40%;
+    }
+    .subtitulo_redes{
+        width: 30%;
+        font-size: .75rem;
+    }
+    .anclas{
+        width: 40%;
+        height: .5%;
+        justify-content: right;
+        flex-direction: column;
+    }
+    .ancla{
+        font-size: .75rem;
+        width: 90%;
+        gap: 1%;
+        
+    }
+    .contenidoFooter{
+        display: flex;
+        width: 80%;
+        flex-direction: row;
+        justify-content:space-between;
+        gap: 8%;
+    }
+    
+}
+
+
+@media (min-width: 769px) and (max-width:1440px){
+    .presentacion_contenido_titulo{
+        
+        width: 60%;
+
+    }
+
+    .parrafo1_presentacion{
+        width: 70%;
+
+    }
+       
+
+    .texto_advertencia{
+        font-size: 1rem;
+        width: 70%;
+    }
+
+    .contenidoFooter{
+        display: flex;
+        width: 80%;
+        flex-direction: row;
+        justify-content:space-between;
+        gap: 8%;
+    }
+
+    .anclas{
+        width: 40%;
+        height: .5%;
+        justify-content: right;
+        flex-direction: row|;
+    }
+    .ancla{
+        font-size: 1rem;
+        width: 90%;
+        gap: 1%;
+    }
+
+    
 }
