@@ -322,8 +322,10 @@ body{
         justify-content:space-between;
         gap: 10%;
     }
-    
-}
+    .footer{
+          bottom: 0;
+          position: absolute;  
+    }
    
 
 @media (max-width: 768px) and (min-width:376px){
@@ -394,7 +396,8 @@ body{
         gap: 8%;
     }
     .footer{
-        bottom: 0  ;
+        bottom: 0;
+        position: absolute;
     }
     
 }
@@ -448,5 +451,6 @@ body{
 
     .footer{
         bottom: 0  ;
+        position: absolute;
     }
 }
