@@ -46,7 +46,7 @@ body{
     margin: 0;
     margin-bottom: 0;
     position: relative;
-    min-height: 100vh;
+    
 }
 
 .presentacion{
@@ -196,7 +196,8 @@ body{
     flex-direction: row;
     align-items:flex-start;
     justify-content: space-between;
-    gap: 0% 0%;
+    position:fixed;
+    bottom: 0;
     width: 100%;
     
 }
@@ -444,8 +445,6 @@ body{
         gap: 8%;
     }
 
-    .footer{
-        position: absolute;
-        bottom: 0;
-    }
+    
+   
 }
