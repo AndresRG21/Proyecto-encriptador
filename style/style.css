@@ -3,6 +3,13 @@
 *{
     padding: 0;
     margin: 0;
+   
+    
+}
+
+html{
+    max-width: 100%;
+    position: relative;
 }
 
 :root{
@@ -36,8 +43,9 @@ main{
 
 body{
     background-color: var(--color-primario);
-    box-sizing: border-box;
-
+    margin: 0;
+    margin-bottom: 0;
+    min-height: 100vh;
 }
 
 .presentacion{
@@ -188,7 +196,10 @@ body{
     align-items:flex-start;
     justify-content: space-between;
     gap: 0% 0%;
-    position: relative;
+    width: 100%;
+    position: absolute;
+    bottom: 0  ;
+    
 
 }
 
@@ -255,7 +266,6 @@ body{
 
     .parrafo1_presentacion{
         width: 70%;
-        padding: auto;
         font-size: 1rem;
     }
     .cajasDeTexto{
@@ -326,7 +336,7 @@ body{
     }
 
     .parrafo1_presentacion{
-        padding: auto;
+
         font-size: 1rem;
         width: 60%;
     }
@@ -389,7 +399,7 @@ body{
 }
 
 
-@media (min-width: 769px) and (max-width:1440px){
+@media (min-width: 769px) and (max-width:1980px){
     .presentacion_contenido_titulo{
         
         width: 60%;
@@ -419,12 +429,20 @@ body{
         width: 40%;
         height: .5%;
         justify-content: right;
-        flex-direction: row|;
+        flex-direction: row;
     }
     .ancla{
         font-size: 1rem;
         width: 90%;
         gap: 1%;
+    }
+
+    .contenidoFooter{
+        display: flex;
+        width: 80%;
+        flex-direction: row;
+        justify-content:space-between;
+        gap: 8%;
     }
 
     
