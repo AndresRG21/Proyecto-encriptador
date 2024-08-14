@@ -45,6 +45,7 @@ body{
     background-color: var(--color-primario);
     margin: 0;
     margin-bottom: 0;
+    position: relative;
     min-height: 100vh;
 }
 
@@ -198,8 +199,6 @@ body{
     gap: 0% 0%;
     width: 100%;
     
-    
-
 }
 
 .contenidoFooter{
@@ -395,7 +394,6 @@ body{
         gap: 8%;
     }
     .footer{
-        position: absolute;
         bottom: 0  ;
     }
     
@@ -449,7 +447,6 @@ body{
     }
 
     .footer{
-        position: absolute;
         bottom: 0  ;
     }
 }
