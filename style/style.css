@@ -197,8 +197,7 @@ body{
     justify-content: space-between;
     gap: 0% 0%;
     width: 100%;
-    position: absolute;
-    bottom: 0  ;
+    
     
 
 }
@@ -395,6 +394,10 @@ body{
         justify-content:space-between;
         gap: 8%;
     }
+    .footer{
+        position: absolute;
+        bottom: 0  ;
+    }
     
 }
 
@@ -445,5 +448,8 @@ body{
         gap: 8%;
     }
 
-    
+    .footer{
+        position: absolute;
+        bottom: 0  ;
+    }
 }
