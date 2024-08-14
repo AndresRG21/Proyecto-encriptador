@@ -322,10 +322,6 @@ body{
         justify-content:space-between;
         gap: 10%;
     }
-    .footer{
-          bottom: 0;
-          position: absolute;  
-    }
 
 }
 
@@ -395,10 +391,6 @@ body{
         flex-direction: row;
         justify-content:space-between;
         gap: 8%;
-    }
-    .footer{
-        bottom: 0;
-        position: absolute;
     }
     
 }
