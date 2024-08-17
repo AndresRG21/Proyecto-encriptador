@@ -76,5 +76,9 @@ Para acceder a mi proyecto deberas dar click en el siguiente link: https://andre
 <li>HTML</li>
 
 
+
+
 <h7>AUTOR</h7>
 
+
+[<img src="https://avatars.githubusercontent.com/u/173640893?v=4" width=115><br><sub>Andres Ramirez</sub>](https://github.com/AndresRG21)
