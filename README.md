@@ -45,8 +45,6 @@ Me enorgullese decir que logre que la pagina fuera totalmente responsiva en los 
 
 Ahora mostrare Screenshots de los diferentes escenarios como muestra de su responsavidad.
 
-Compuradora de escritorio:
-
 
 Laptop:
 
