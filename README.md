@@ -32,8 +32,10 @@ En la siguientes imagenes veremos como la pagina puede hacer las dos funciones d
 
 ![Captura de pantalla 2024-08-15 233808](https://github.com/user-attachments/assets/c2852014-fc28-464c-b396-07f830ec9004)
 
-
+<p> Funcionalidad de copiar en portapapeles </p>
 En ambos casos se hizo uso del boton de "copiar texto", funciona de forma exitosa, muestra una alerta y puedes pegar el texto ¡donde quieras! Para probar esta funcion y el encriptador de click en el siguiente link: https://andresrg21.github.io/Proyecto-encriptador/
+
+<p>Responsavidad en dispositivos moviles</p>
 
 Me enorgullese decir que logre que la pagina fuera totalmente responsiva en los diferentes dispositivos que poseo: Una pc de escritorio, una laptop, dos smartphones y una tablet. Me ayudaron bastante a recibir feedback en cuestion de los diferentes tamaños de pantalla.
 
@@ -57,4 +59,18 @@ Smartphone
 ![1723787461848](https://github.com/user-attachments/assets/efba212d-7040-4674-a888-6eb278f33171)   ![1723787461840](https://github.com/user-attachments/assets/554fc5c0-688e-4eae-bc75-64087b40e696)
 
 
+<P>Acceso al proyecto</P>
+
+Para acceder a mi proyecto deberas dar click en el siguiente link: https://andresrg21.github.io/Proyecto-encriptador/
+ O bien puedes acceder a las carperas en la parte superior de la pagina y abrir cada uno de los elementos del mismo.
+
+
+<p>Tecnologias Utilizadas</p>
+
+<li>Javascript</li>
+<li>CSS</li>
+<li>HTML</li>
+
+
+<p>AUTOR</p>
 
