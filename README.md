@@ -9,18 +9,21 @@ Como parte del Challenge de Alura, he desarrollado un encriptador de texto sigui
 
 Este proyecto lo he creado desde cero, sin utilizar los videos de apoyo proporcionados por el equipo de Alura. Mi objetivo al hacerlo de esta manera fue experimentar y enfrentar personalmente las dificultades que suelen surgir en proyectos de front end.
 
-<h1>Estado del proyecto: <strong>FINALIZADO</strong></h1>
+<h2>Estado del proyecto: <strong>FINALIZADO</strong></h2>
 
 El proyecto se finalizo al momento de probar la mas reciente actualizacion version 11, por lo que al conjunto de las ultimas mejoras de todos los elementos del Encriptador se le dara el numero v12 y al 14 de agosto es la fecha oficial de finalizacion.
 
 
-<h2>CARACTERISTICAS DEL PROYECTO</h2>
+<h3>CARACTERISTICAS DEL PROYECTO</h3>
 
 Se fue propuesto un desafio el cual consiste en crear un encriptador de texto deacuerdo a las pautas de Alura Latam.
 
 <p>Vista general del encriptador</p>
 
 ![Vista General del proyecto](https://github.com/user-attachments/assets/3111df74-48d1-4e7b-9ce5-f9f76d7dd917)
+
+
+<h4>FUNCIONES DEL PROYECTO</h4>
 
 <p>Funcion de encriptacion y desenciptacion</p>
 
@@ -31,6 +34,7 @@ En la siguientes imagenes veremos como la pagina puede hacer las dos funciones d
 
 
 ![Captura de pantalla 2024-08-15 233808](https://github.com/user-attachments/assets/c2852014-fc28-464c-b396-07f830ec9004)
+
 
 <p> Funcionalidad de copiar en portapapeles </p>
 En ambos casos se hizo uso del boton de "copiar texto", funciona de forma exitosa, muestra una alerta y puedes pegar el texto ¡donde quieras! Para probar esta funcion y el encriptador de click en el siguiente link: https://andresrg21.github.io/Proyecto-encriptador/
@@ -59,18 +63,18 @@ Smartphone
 ![1723787461848](https://github.com/user-attachments/assets/efba212d-7040-4674-a888-6eb278f33171)   ![1723787461840](https://github.com/user-attachments/assets/554fc5c0-688e-4eae-bc75-64087b40e696)
 
 
-<P>Acceso al proyecto</P>
+<h5>Acceso al proyecto</h5>
 
 Para acceder a mi proyecto deberas dar click en el siguiente link: https://andresrg21.github.io/Proyecto-encriptador/
  O bien puedes acceder a las carperas en la parte superior de la pagina y abrir cada uno de los elementos del mismo.
 
 
-<p>Tecnologias Utilizadas</p>
+<h6>Tecnologias Utilizadas</h6>
 
 <li>Javascript</li>
 <li>CSS</li>
 <li>HTML</li>
 
 
-<p>AUTOR</p>
+<h7>AUTOR</h7>
 
